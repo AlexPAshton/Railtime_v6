@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="theme_devicedefault_background">#fff2f2f2</color>
+  <style name="Theme.Custom" parent="@android:style/Theme.Holo.Light.NoActionBar">
+    <item name="android:colorBackground">@color/theme_devicedefault_background</item>
+    <item name="android:windowBackground">?android:attr/colorBackground</item>
+    <item name="android:colorPrimary">#ffe16b1d</item>
+    <item name="android:colorAccent">#fff3cf9f</item>
+    <item name="android:windowContentOverlay">@null</item>
+  </style>
+</resources>
